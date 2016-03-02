@@ -113,6 +113,9 @@
   <ItemGroup>
     <ProjectCapability Include="Linux" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp" />
+  </ItemGroup>
   <!-- To Enable linux debugger End -->
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
